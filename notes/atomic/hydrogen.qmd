@@ -17,7 +17,6 @@ As seen in Eq. @eq-hydrogen-energy, the energy levels scale as $1/n^2$.
 **Q1.** The thermal radiation emitted by a body is proportional to $T^n$.
 The value of $n$ is exactly 4 for:
 
-```{=html}
 <div class="mcq-card">
   <div class="mcq-options">
     <button onclick="checkMCQ(this,0)">(a) a blackbody</button>
@@ -26,6 +25,8 @@ The value of $n$ is exactly 4 for:
     <button onclick="checkMCQ(this,0)">(d) polished bodies only</button>
   </div>
 </div>
+:::
+
 
 
 
