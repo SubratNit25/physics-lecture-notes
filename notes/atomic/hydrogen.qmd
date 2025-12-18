@@ -24,3 +24,22 @@ D. $\sqrt{n}$
 
 **Correct answer:** B
 :::
+
+
+::: {.callout-important}
+**Key Result**
+
+Zero-point energy is a purely quantum mechanical effect.
+:::
+
+::: {.callout-note}
+**Example**
+
+Calculate the ground state energy of an electron in a box of length $L$.
+:::
+
+::: {.callout-tip}
+**Remark**
+
+Degeneracy is a consequence of symmetry of the Hamiltonian.
+:::
