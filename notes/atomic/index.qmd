@@ -4,6 +4,5 @@ title: "Atomic Physics"
 
 ## Chapters
 
-1. [Atomic Structure](structure.qmd)
-2. [Hydrogen Atom](hydrogen.qmd)
-3. [Fine Structure](fine.qmd)
+1. [Hydrogen Atom](hydrogen.qmd)
+
