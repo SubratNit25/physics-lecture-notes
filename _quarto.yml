@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Physics Lecture Notes"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Lecture Notes"
+        href: notes/index.qmd
+      - text: "About"
+        href: about.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    mathjax: true
