@@ -1,15 +1,28 @@
 <script>
 function checkMCQ(button, correctIndex) {
+
+  // 🔒 If already answered, do nothing
+  if (button.parentElement.classList.contains("mcq-answered")) {
+    return;
+  }
+
   const buttons = button.parentElement.querySelectorAll("button");
+
+  // Mark MCQ as answered (LOCK IT)
+  button.parentElement.classList.add("mcq-answered");
 
   buttons.forEach((btn, index) => {
     btn.disabled = true;
+
+    // Always show the correct answer
     if (index === correctIndex) {
       btn.classList.add("mcq-correct");
     }
   });
 
   const clickedIndex = Array.from(buttons).indexOf(button);
+
+  // Mark clicked wrong option only
   if (clickedIndex !== correctIndex) {
     button.classList.add("mcq-wrong");
   }
