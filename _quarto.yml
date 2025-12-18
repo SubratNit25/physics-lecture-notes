@@ -22,8 +22,10 @@ format:
       dark: darkly
     toc: true
     number-sections: true
-    smooth-scroll: true
-    code-fold: true
     callout-appearance: minimal
+    css: assets/mcq.css
+    include-in-header:
+      - assets/mcq.js
+
 
 
