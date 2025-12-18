@@ -18,10 +18,12 @@ book:
 format:
   html:
     theme:
-      light: cosmo
+      light: flatly
       dark: darkly
     toc: true
     number-sections: true
     smooth-scroll: true
     code-fold: true
+    callout-appearance: minimal
+
 
