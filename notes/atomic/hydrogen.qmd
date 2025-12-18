@@ -12,17 +12,24 @@ $$ {#eq-hydrogen-energy}
 As seen in Eq. @eq-hydrogen-energy, the energy levels scale as $1/n^2$.
 
 
+
 ::: {.callout-question}
-**MCQ**
+**Q1.** The thermal radiation emitted by a body is proportional to $T^n$.
+The value of $n$ is exactly 4 for:
 
-For a particle in a one-dimensional infinite potential well,
-the energy levels are proportional to:
-
-<div class="mcq">
-<button onclick="checkMCQ(this,false)">A. $n$</button>
-<button onclick="checkMCQ(this,true)">B. $n^2$</button>
-<button onclick="checkMCQ(this,false)">C. $\sqrt{n}$</button>
-<button onclick="checkMCQ(this,false)">D. $1/n$</button>
+<div class="mcq-card">
+  <div class="mcq-option" onclick="selectMCQ(this,0)">
+    (a) a blackbody
+  </div>
+  <div class="mcq-option" onclick="selectMCQ(this,0)">
+    (b) all bodies
+  </div>
+  <div class="mcq-option" onclick="selectMCQ(this,0)">
+    (c) bodies painted black only
+  </div>
+  <div class="mcq-option" onclick="selectMCQ(this,0)">
+    (d) polished bodies only
+  </div>
 </div>
 :::
 
