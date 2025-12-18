@@ -3,7 +3,7 @@ project:
 
 book:
   title: "Physics Lecture Notes"
-  author: "Sai"
+  author: "Subrata"
   site-url: https://<your-username>.github.io/physics-lecture-notes
   chapters:
     - index.qmd
