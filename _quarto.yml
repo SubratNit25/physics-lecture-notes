@@ -26,6 +26,7 @@ format:
     css: assets/mcq.css
     include-after-body:
       - assets/mcq.html
+    from: markdown+raw_html
      
 
 
