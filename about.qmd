@@ -1,8 +1,0 @@
----
-title: "About"
----
-
-These lecture notes are prepared by an MSc Physics student with research
-interests in nuclear and quantum physics.
-
-The goal is to build a structured, continuously evolving resource.
