@@ -1,0 +1,10 @@
+---
+title: "Lecture Notes"
+---
+
+## Subjects
+
+- [Atomic Physics](atomic/index.qmd)
+- [Quantum Mechanics](quantum/index.qmd)
+- [Statistical Mechanics](statmech/index.qmd)
+- [Nuclear Physics](nuclear/index.qmd)
