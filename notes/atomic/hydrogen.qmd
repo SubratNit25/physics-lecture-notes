@@ -5,3 +5,8 @@
 ## Energy Levels
 
 ## Degeneracy
+$$
+E_n = -\frac{13.6}{n^2} \text{ eV}
+$$ {#eq-hydrogen-energy}
+
+As seen in Eq. @eq-hydrogen-energy, the energy levels scale as $1/n^2$.
