@@ -12,21 +12,8 @@ book:
       chapters:
         - notes/atomic/index.qmd
         - notes/atomic/hydrogen.qmd
-        - notes/atomic/fine-structure.qmd
+        
 
-    - part: "Quantum Mechanics"
-      chapters:
-        - notes/quantum/index.qmd
-        - notes/quantum/schrodinger.qmd
-        - notes/quantum/operators.qmd
-
-    - part: "Statistical Mechanics"
-      chapters:
-        - notes/statmech/index.qmd
-
-    - part: "Nuclear Physics"
-      chapters:
-        - notes/nuclear/index.qmd
 
 format:
   html:
