@@ -24,8 +24,9 @@ format:
     number-sections: true
     callout-appearance: minimal
     css: assets/mcq.css
-    include-in-header:
+    include-after-body:
       - assets/mcq.js
+     
 
 
 
