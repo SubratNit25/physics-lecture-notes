@@ -1,18 +1,17 @@
 <script>
-function selectMCQ(option, correctIndex) {
-  const options = option.parentElement.querySelectorAll(".mcq-option");
+function checkMCQ(button, correctIndex) {
+  const buttons = button.parentElement.querySelectorAll("button");
 
-  options.forEach((opt, index) => {
-    opt.classList.add("disabled");
-
+  buttons.forEach((btn, index) => {
+    btn.disabled = true;
     if (index === correctIndex) {
-      opt.classList.add("mcq-correct");
+      btn.classList.add("mcq-correct");
     }
   });
 
-  const clickedIndex = [...options].indexOf(option);
+  const clickedIndex = Array.from(buttons).indexOf(button);
   if (clickedIndex !== correctIndex) {
-    option.classList.add("mcq-wrong");
+    button.classList.add("mcq-wrong");
   }
 }
 </script>
