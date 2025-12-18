@@ -1,8 +1,18 @@
----
-title: "About"
----
+# About the Author
 
-These lecture notes are prepared by an MSc Physics student with research
-interests in nuclear and quantum physics.
+Subha is a postgraduate student of Physics with strong interests in
+quantum mechanics, atomic physics, nuclear physics, and data-driven
+approaches to physical systems.
 
-The goal is to build a structured, continuously evolving resource.
+These lecture notes were developed during MSc studies as part of a
+long-term effort to build a coherent and conceptually clear resource
+covering core areas of physics, with emphasis on physical insight,
+mathematical structure, and connections across subfields.
+
+The material reflects a learning-oriented perspective: derivations are
+presented in full where they clarify ideas, while advanced topics are
+motivated through physical reasoning rather than formalism alone.
+Where relevant, links to modern research directions and computational
+approaches are highlighted.
+
+The notes are continuously evolving.
