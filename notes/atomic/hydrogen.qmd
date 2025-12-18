@@ -10,3 +10,17 @@ E_n = -\frac{13.6}{n^2} \text{ eV}
 $$ {#eq-hydrogen-energy}
 
 As seen in Eq. @eq-hydrogen-energy, the energy levels scale as $1/n^2$.
+
+
+::: {.callout-question}
+**MCQ**
+
+For a particle in a 1D box, the energy levels vary as:
+
+A. $n$  
+B. $n^2$  
+C. $1/n$  
+D. $\sqrt{n}$
+
+**Correct answer:** B
+:::
