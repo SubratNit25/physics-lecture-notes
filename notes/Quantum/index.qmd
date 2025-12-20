@@ -4,4 +4,4 @@ title: "Quantum Mechanics"
 
 ## Chapters
 
-0. [Basic Ideas](basic_idea.qmd)
+0. [Basic Ideas](basic_ideas.qmd)
