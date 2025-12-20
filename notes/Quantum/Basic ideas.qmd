@@ -1,0 +1,103 @@
+# Basic Ideas to Keep in Mind: Classical vs Quantum Description
+
+## Motivation
+
+Before developing the mathematical structure of quantum mechanics, it is
+important to understand how quantum ideas differ from classical intuition.
+This section summarizes the basic conceptual differences that should be kept in
+mind throughout these notes.
+
+---
+
+## 1. Domain of Applicability
+
+### Classical Mechanics (CM)
+
+- Applicable to macroscopic systems
+- Works when quantum effects are negligible
+- Examples: projectiles, rigid bodies, planets, electrical circuits
+
+### Quantum Mechanics (QM)
+
+- Applicable to microscopic systems
+- Required when classical mechanics fails
+- Examples: electrons, atoms, nuclei, photons
+
+---
+
+## 2. Nature of Radiation and Matter
+
+### Classical View
+
+- Electromagnetic radiation has wave nature
+- Matter has particle nature
+
+This distinction works well at macroscopic scales.
+
+### Quantum View
+
+- Electromagnetic radiation exhibits wave–particle duality
+- Matter also exhibits wave–particle duality
+
+In quantum mechanics, the classical distinction between waves and particles
+no longer holds.
+
+---
+
+## 3. Physical Observables
+
+### Classical Mechanics
+
+- Observables such as position, momentum, energy, and angular momentum
+- Values are continuous
+- The state of a system is specified by definite values of observables
+
+### Quantum Mechanics
+
+- Observables are represented by operators
+- Measurement outcomes correspond to eigenvalues of operators
+- Some observables have discrete spectra
+
+Examples include energy levels of bound systems, angular momentum, and spin.
+
+---
+
+## 4. Important Clarification: Discrete vs Continuous
+
+### Not all observables are discrete
+
+Quantization is a key feature of quantum mechanics, but it is not universal.
+
+- Discrete spectra:
+  - Energy of bound states
+  - Angular momentum
+  - Spin
+
+- Continuous spectra:
+  - Position
+  - Momentum
+  - Energy of free particles
+
+The nature of the spectrum depends on the operator, the physical system, and the
+boundary conditions.
+
+---
+
+## 5. Conceptual Shift from Classical to Quantum Mechanics
+
+| Classical Mechanics | Quantum Mechanics |
+|---------------------|-------------------|
+| Definite trajectories | Probabilistic outcomes |
+| Observables are numbers | Observables are operators |
+| Deterministic evolution | Probabilistic measurement |
+| Single nature (wave or particle) | Wave–particle duality |
+
+---
+
+## Key Takeaways
+
+- Quantum mechanics is required for microscopic systems
+- Matter and radiation both show wave–particle duality
+- Observables are operator-valued quantities
+- Quantization is selective, not universal
+- Classical intuition must be revised, not discarded
