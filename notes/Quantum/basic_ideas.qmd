@@ -101,3 +101,128 @@ boundary conditions.
 - Observables are operator-valued quantities
 - Quantization is selective, not universal
 - Classical intuition must be revised, not discarded
+
+
+
+## When Is a System Relativistic?
+
+In quantum mechanics, classical mechanics, and relativistic physics, it is often
+important to decide **whether relativistic effects are important or negligible**.
+This section collects simple criteria that will be repeatedly used throughout
+the course.
+
+> This is not a complete discussion — these ideas will be refined and expanded
+> as the course progresses.
+
+---
+
+## 1. Velocity-Based Criterion
+
+- If the particle speed satisfies  
+  \( v \ll c \),  
+  the motion is **non-relativistic**.
+
+- If the particle speed satisfies  
+  \( v \sim c \),  
+  the motion is **relativistic**.
+
+This criterion is intuitive but **not always practical**, since velocity may
+not be directly known in quantum problems.
+
+---
+
+## 2. Energy-Based Criterion (Most Useful)
+
+Let \( m_0 c^2 \) denote the **rest mass energy** of the particle.
+
+- If  
+  \( \text{K.E.} \ll m_0 c^2 \),  
+  the system is **non-relativistic**.
+
+- If  
+  \( \text{K.E.} \sim m_0 c^2 \)  
+  or  
+  \( \text{K.E.} > m_0 c^2 \),  
+  the system is **relativistic**.
+
+This criterion is widely used in quantum mechanics, nuclear physics, and
+particle physics.
+
+---
+
+### Example 1: Electron
+
+- Electron rest mass energy:  
+  \( m_e c^2 \approx 0.511 \, \text{MeV} \)
+
+1. **Electron with K.E. = 1 keV**
+   - \( 1 \, \text{keV} \ll 511 \, \text{keV} \)
+   - **Non-relativistic**
+
+2. **Electron with K.E. = 1 MeV**
+   - \( 1 \, \text{MeV} \sim 0.511 \, \text{MeV} \)
+   - **Relativistic**
+
+Thus, electrons become relativistic at energies of order **MeV**.
+
+---
+
+### Example 2: Proton
+
+- Proton rest mass energy:  
+  \( m_p c^2 \approx 938 \, \text{MeV} \)
+
+- Proton with K.E. = 1 MeV:
+  - \( 1 \, \text{MeV} \ll 938 \, \text{MeV} \)
+  - **Non-relativistic**
+
+This explains why protons can often be treated non-relativistically in atomic
+and low-energy nuclear physics, while electrons cannot.
+
+---
+
+## 3. Momentum-Based Criterion
+
+In many quantum problems, **momentum** is known rather than kinetic energy.
+
+Compare the quantity \( p c \) with the rest mass energy \( m_0 c^2 \):
+
+- If  
+  \( p c \ll m_0 c^2 \),  
+  the system is **non-relativistic**.
+
+- If  
+  \( p c \sim m_0 c^2 \)  
+  or  
+  \( p c > m_0 c^2 \),  
+  the system is **relativistic**.
+
+---
+
+### Important Note on Units
+
+Momentum \( p \) and rest mass energy \( m_0 c^2 \) **do not have the same units**.
+
+- Always multiply momentum by \( c \)  
+  → compare **\( p c \)** with **\( m_0 c^2 \)**
+
+This puts both quantities in **energy units**, allowing a meaningful comparison.
+
+---
+
+## Summary of Relativistic Criteria
+
+| Criterion | Non-relativistic | Relativistic |
+|---------|------------------|--------------|
+| Velocity | \( v \ll c \) | \( v \sim c \) |
+| Energy | \( \text{K.E.} \ll m_0 c^2 \) | \( \text{K.E.} \sim m_0 c^2 \) |
+| Momentum | \( p c \ll m_0 c^2 \) | \( p c \sim m_0 c^2 \) |
+
+---
+
+### Conceptual Takeaway
+
+- **Rest mass energy sets the scale**
+- Relativity becomes important when available energy or momentum is comparable
+  to \( m_0 c^2 \)
+- These criteria will repeatedly guide approximations used later in the course
