@@ -1,222 +1,256 @@
-# Basic Ideas to Keep in Mind: Classical vs Quantum Description
+# Basic Ideas to Keep in Mind
 
 ## Motivation
 
 Before developing the mathematical structure of quantum mechanics, it is
-important to understand how quantum ideas differ from classical intuition.
-This chapter collects a set of **basic guiding principles** that will be used
-repeatedly throughout these notes.
+essential to clarify **how quantum descriptions differ from classical ones**.
+This chapter introduces a set of **guiding ideas and scales** that will be used
+throughout these notes.
 
-These ideas are not meant to be complete or final; they will be refined and
-extended as new concepts are introduced later in the course.
+These concepts are intentionally general. As the course progresses, they will
+be refined, formalized, and applied in specific physical contexts.
 
 ---
 
-## 1. Domain of Applicability
+## 1. Classical and Quantum Description of Nature
 
-### Classical Mechanics (CM)
+### 1.1 Domain of Applicability
 
-- Applicable to **macroscopic systems**
-- Works well when quantum effects are negligible
-- Examples: projectiles, rigid bodies, planets, electrical circuits
+**Classical Mechanics (CM)**
 
-### Quantum Mechanics (QM)
+- Applicable to macroscopic systems
+- Valid when quantum effects are negligible
+- Examples: projectiles, rigid bodies, planetary motion, electrical circuits
 
-- Applicable to **microscopic systems**
+**Quantum Mechanics (QM)**
+
+- Applicable to microscopic systems
 - Required when classical mechanics fails
 - Examples: electrons, atoms, nuclei, photons
 
 At microscopic scales, classical concepts such as definite trajectories and
-simultaneous measurement of all observables cease to be valid.
+simultaneous precise values of all observables lose their meaning.
 
 ---
 
-## 2. Nature of Radiation and Matter
+### 1.2 Nature of Radiation and Matter
 
-### Classical View
+**Classical View**
 
-- **Electromagnetic radiation**  
-  → wave nature (Maxwell’s theory)
+- Electromagnetic radiation behaves as a wave
+- Matter behaves as particles
 
-- **Matter**  
-  → particle nature
+This separation works well at macroscopic scales.
 
-This clear distinction is adequate at macroscopic scales.
+**Quantum View**
 
-### Quantum View
+- Electromagnetic radiation exhibits wave–particle duality
+- Matter also exhibits wave–particle duality
 
-- **Electromagnetic radiation**  
-  → wave–particle duality
-
-- **Matter**  
-  → wave–particle duality (de Broglie hypothesis)
-
-In quantum mechanics, the sharp classical separation between waves and particles
-is no longer meaningful.
+In quantum mechanics, the classical distinction between waves and particles is
+no longer fundamental.
 
 ---
 
-## 3. Physical Observables
+## 2. Observables and Measurement
 
-### Classical Mechanics
+### 2.1 Classical Observables
+
+In classical mechanics:
 
 - Observables such as position, momentum, energy, and angular momentum
-- Observables take **continuous values**
-- The state of a system is specified by definite numerical values
-
-### Quantum Mechanics
-
-- Physical observables are represented by **operators**
-- Measurement outcomes correspond to **eigenvalues** of operators
-- Some observables exhibit **quantization**
-
-Examples include energy levels of bound systems, angular momentum, and spin.
+  are represented by numbers
+- These quantities take **continuous values**
+- The state of a system is specified by definite values of all observables
 
 ---
 
-## 4. Important Clarification: Discrete vs Continuous
+### 2.2 Quantum Observables
 
-### Not all observables are discrete
+In quantum mechanics:
 
-Quantization is a defining feature of quantum mechanics, but it is **not
-universal**.
+- Physical observables are represented by **operators**
+- Measurement outcomes correspond to **eigenvalues** of these operators
+- The state of a system does not assign definite values to all observables
+  simultaneously
 
-- **Discrete spectra**:
-  - Energy of bound states
-  - Angular momentum
-  - Spin
+---
 
-- **Continuous spectra**:
-  - Position
-  - Momentum
-  - Energy of free particles
+### 2.3 Discrete and Continuous Spectra
+
+A key feature of quantum mechanics is **quantization**, but it is important to
+understand its limitations.
+
+**Discrete spectra** occur for:
+- Energy of bound states
+- Angular momentum
+- Spin
+
+**Continuous spectra** occur for:
+- Position
+- Momentum
+- Energy of free particles
 
 The nature of the spectrum depends on:
-- the observable (operator),
+- the observable,
 - the physical system,
 - and the boundary conditions.
 
----
-
-## 5. Conceptual Shift from Classical to Quantum Mechanics
-
-| Classical Mechanics | Quantum Mechanics |
-|--------------------|-------------------|
-| Definite trajectories | Probabilistic outcomes |
-| Observables are numbers | Observables are operators |
-| Deterministic evolution | Probabilistic measurement |
-| Single nature (wave or particle) | Wave–particle duality |
+> Quantization does not imply that all physical quantities are discrete.
 
 ---
 
-## Key Takeaways
+## 3. Physical Scales and Approximations
 
-- Quantum mechanics is required for microscopic systems
-- Matter and radiation both exhibit wave–particle duality
-- Observables are operator-valued quantities
-- Quantization is selective, not universal
-- Classical intuition must be revised, not discarded
+Many physical theories are distinguished by the **energy and length scales**
+at which they apply. Before choosing a theoretical description, it is important
+to compare relevant physical quantities with natural reference scales.
 
 ---
 
-## When Is a System Relativistic?
+### 3.1 When Is a System Relativistic?
 
-In many problems across quantum mechanics, atomic physics, nuclear physics, and
-particle physics, it is important to decide **whether relativistic effects can
-be neglected or must be included**.
+Relativistic effects become important when particle energies or momenta are
+comparable to the particle’s rest mass energy.
 
-This section summarizes simple criteria that will be used repeatedly throughout
-the course.
-
-> These criteria are preliminary and will be revisited in more formal settings
-> later.
+This section summarizes practical criteria used throughout quantum mechanics,
+atomic physics, and nuclear physics.
 
 ---
 
-## 1. Velocity-Based Criterion
+### 3.2 Velocity-Based Criterion
 
-- If the particle speed satisfies  
-  $v \ll c$,  
-  the motion is **non-relativistic**.
+If the particle speed satisfies
 
-- If the particle speed satisfies  
-  $v \sim c$,  
-  the motion is **relativistic**.
+$$
+v \ll c ,
+$$
+
+the motion is **non-relativistic**.
+
+If the particle speed satisfies
+
+$$
+v \sim c ,
+$$
+
+the motion is **relativistic**.
 
 Although intuitive, this criterion is often impractical in quantum problems,
 where velocity may not be directly known.
 
 ---
 
-## 2. Energy-Based Criterion (Most Useful)
+### 3.3 Energy-Based Criterion (Most Useful)
 
-Let $m_0 c^2$ denote the **rest mass energy** of a particle.
+Let the rest mass energy of a particle be
 
-- If  
-  $\mathrm{K.E.} \ll m_0 c^2$,  
-  the system is **non-relativistic**.
+$$
+m_0 c^2 .
+$$
 
-- If  
-  $\mathrm{K.E.} \sim m_0 c^2$  
-  or  
-  $\mathrm{K.E.} > m_0 c^2$,  
-  the system is **relativistic**.
+- If
 
-This criterion is widely used in quantum mechanics, nuclear physics, and
-particle physics.
+$$
+\mathrm{K.E.} \ll m_0 c^2 ,
+$$
+
+the system is **non-relativistic**.
+
+- If
+
+$$
+\mathrm{K.E.} \sim m_0 c^2
+\quad \text{or} \quad
+\mathrm{K.E.} > m_0 c^2 ,
+$$
+
+the system is **relativistic**.
 
 ---
 
-### Example 1: Electron
+#### Example: Electron
 
-Electron rest mass energy:
+The electron rest mass energy is
+
 $$
-m_e c^2 \approx 0.511\ \mathrm{MeV}
+m_e c^2 \approx 0.511\ \mathrm{MeV} .
 $$
 
-- Electron with $\mathrm{K.E.} = 1\ \mathrm{keV}$  
-  → $1\ \mathrm{keV} \ll 511\ \mathrm{keV}$  
-  → **Non-relativistic**
+- Electron with kinetic energy $1\ \mathrm{keV}$:
 
-- Electron with $\mathrm{K.E.} = 1\ \mathrm{MeV}$  
-  → $1\ \mathrm{MeV} \sim 0.511\ \mathrm{MeV}$  
-  → **Relativistic**
+$$
+1\ \mathrm{keV} \ll 511\ \mathrm{keV}
+$$
 
-Thus, electrons become relativistic at energies of order **MeV**.
+→ Non-relativistic
+
+- Electron with kinetic energy $1\ \mathrm{MeV}$:
+
+$$
+1\ \mathrm{MeV} \sim 0.511\ \mathrm{MeV}
+$$
+
+→ Relativistic
+
+Thus, electrons become relativistic at energies of order MeV.
 
 ---
 
-### Example 2: Proton
+#### Example: Proton
 
-Proton rest mass energy:
+The proton rest mass energy is
+
 $$
-m_p c^2 \approx 938\ \mathrm{MeV}
+m_p c^2 \approx 938\ \mathrm{MeV} .
 $$
 
-- Proton with $\mathrm{K.E.} = 1\ \mathrm{MeV}$  
-  → $1\ \mathrm{MeV} \ll 938\ \mathrm{MeV}$  
-  → **Non-relativistic**
+For a proton with kinetic energy $1\ \mathrm{MeV}$:
 
-This explains why protons can often be treated non-relativistically in atomic
-and low-energy nuclear physics.
+$$
+1\ \mathrm{MeV} \ll 938\ \mathrm{MeV}
+$$
+
+→ Non-relativistic
+
+This explains why protons are often treated non-relativistically in atomic and
+low-energy nuclear physics.
 
 ---
 
-## 3. Momentum-Based Criterion
+### 3.4 Momentum-Based Criterion
 
 In many quantum problems, momentum is known more naturally than kinetic energy.
 
-Compare the quantity $p c$ with the rest mass energy $m_0 c^2$:
+To assess relativistic effects, compare
 
-- If  
-  $p c \ll m_0 c^2$,  
-  the system is **non-relativistic**.
+$$
+p c
+$$
 
-- If  
-  $p c \sim m_0 c^2$  
-  or  
-  $p c > m_0 c^2$,  
-  the system is **relativistic**.
+with the rest mass energy
+
+$$
+m_0 c^2 .
+$$
+
+- If
+
+$$
+p c \ll m_0 c^2 ,
+$$
+
+the system is **non-relativistic**.
+
+- If
+
+$$
+p c \sim m_0 c^2
+\quad \text{or} \quad
+p c > m_0 c^2 ,
+$$
+
+the system is **relativistic**.
 
 ---
 
@@ -224,27 +258,21 @@ Compare the quantity $p c$ with the rest mass energy $m_0 c^2$:
 
 Momentum $p$ and rest mass energy $m_0 c^2$ do **not** have the same units.
 
-- Always multiply momentum by $c$
-- Compare **$p c$** with **$m_0 c^2$**
+To compare them meaningfully:
 
-This converts both quantities into energy units and allows a meaningful
-comparison.
+$$
+\text{always compare } p c \text{ with } m_0 c^2 .
+$$
 
----
-
-## Summary of Relativistic Criteria
-
-| Criterion | Non-relativistic | Relativistic |
-|---------|------------------|--------------|
-| Velocity | $v \ll c$ | $v \sim c$ |
-| Energy | $\mathrm{K.E.} \ll m_0 c^2$ | $\mathrm{K.E.} \sim m_0 c^2$ |
-| Momentum | $p c \ll m_0 c^2$ | $p c \sim m_0 c^2$ |
+Multiplying momentum by $c$ converts it into energy units.
 
 ---
 
-### Conceptual Takeaway
+## Summary of Key Ideas
 
-- **Rest mass energy sets the natural scale**
-- Relativistic effects become important when available energy or momentum is
-  comparable to $m_0 c^2$
+- Quantum mechanics is required for microscopic systems
+- Matter and radiation both exhibit wave–particle duality
+- Observables are represented by operators
+- Not all observables are discrete
+- Rest mass energy sets the natural scale for relativistic effects
 - These criteria justify approximations used later in the course
