@@ -10,7 +10,7 @@ book:
 
     - part: "Atomic Physics"
       chapters:
-        - notes/atomic/index.qmd
+        # - notes/atomic/index.qmd
         - notes/atomic/hydrogen.qmd
     - part: "Quantum Mechanics"
       chapters:
