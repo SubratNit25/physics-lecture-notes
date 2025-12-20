@@ -12,6 +12,9 @@ book:
       chapters:
         - notes/atomic/index.qmd
         - notes/atomic/hydrogen.qmd
+    - part: "Quantum Mechanics"
+      chapters:
+        - notes/Quantum/basic_idea.qmd
         
 
 
