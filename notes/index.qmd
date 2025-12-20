@@ -3,6 +3,8 @@ title: "Lecture Notes"
 ---
 
 ## Subjects
+- [Quantum Mechanics](Quantum/index.qmd)
+
 
 - [Atomic Physics](atomic/index.qmd)
 
