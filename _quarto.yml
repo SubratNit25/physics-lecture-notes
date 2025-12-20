@@ -14,7 +14,7 @@ book:
         - notes/atomic/hydrogen.qmd
     - part: "Quantum Mechanics"
       chapters:
-        - notes/Quantum/basic_idea.qmd
+        - notes/Quantum/basic_ideas.qmd
         
 
 
