@@ -5,4 +5,4 @@ title: "Atomic Physics"
 ## Chapters
 
 1. [Hydrogen Atom](hydrogen.qmd)
-
+2. [Spectroscopy](Spectroscopy.qmd)
