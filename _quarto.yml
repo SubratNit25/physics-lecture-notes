@@ -12,7 +12,7 @@ book:
       chapters:
         # - notes/atomic/index.qmd
         - notes/atomic/hydrogen.qmd
-        -notes/atomic/Spectroscopy.qmd
+        - notes/atomic/Spectroscopy.qmd
     - part: "Quantum Mechanics"
       chapters:
         - notes/Quantum/basic_ideas.qmd
