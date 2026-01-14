@@ -1,35 +1,52 @@
-## Why does a vibrating molecule have varying polarizability?
+---
+title: "Classical Theory of Raman Effect"
+format: html
+math: true
+---
 
-This is the *central physical idea* behind the Raman effect.
+## Classical Theory of Raman Effect
 
-### What is polarizability physically?
+### Physical Origin
 
-The polarizability $\alpha$ of a molecule measures:
+When a molecule is placed in an external electric field, the electronic cloud is distorted and an induced dipole moment is produced. The induced dipole moment $\vec{p}$ is proportional to the applied electric field $\vec{E}$:
+\[
+\vec{p} = \alpha \vec{E},
+\]
+where $\alpha$ is the electric polarizability of the molecule.
 
-\begin{quote}
-How easily the electronic cloud of a molecule is distorted by an external electric field.
-\end{quote}
+Molecules possess natural vibrational motion of nuclei about their equilibrium positions. Since the polarizability depends on the internuclear separation, molecular vibration causes the polarizability to vary with time.
 
-It is a property of the electronic distribution around the nuclei.
+---
 
-### Dependence of polarizability on nuclear coordinate
+### Why does a vibrating molecule have varying polarizability?  
+*(Coordinate-dependent picture — key Raman idea)*
 
-Consider a molecule undergoing vibration. During vibration:
+This is the **central physical reason** behind the Raman effect.
 
-\begin{itemize}
-\item The internuclear distance changes continuously.
-\item The electronic cloud adjusts to the instantaneous nuclear configuration.
-\item Therefore, the electronic distribution changes with bond length.
-\end{itemize}
+#### What is polarizability physically?
 
-Hence, the polarizability is not a constant but depends on the nuclear coordinate $Q$ describing the vibrational motion:
+The polarizability $\alpha$ of a molecule tells us:
+
+> How easily the electronic cloud of a molecule is distorted by an external electric field.
+
+It is therefore a property of the **electronic distribution**, which in turn depends on the positions of the nuclei.
+
+#### Dependence on nuclear coordinate
+
+As a molecule vibrates:
+
+- The internuclear distance changes continuously.
+- The electronic cloud adjusts to the instantaneous nuclear configuration.
+- Hence, the electronic distribution changes with bond length.
+
+Therefore, the polarizability depends on the nuclear vibrational coordinate $Q$:
 \[
 \alpha = \alpha(Q).
 \]
 
-### Expansion for small vibrations
+#### Small-amplitude vibration approximation
 
-For small-amplitude vibrations about equilibrium ($Q = 0$), the polarizability can be expanded in a Taylor series:
+For small vibrations about equilibrium ($Q = 0$), we expand $\alpha(Q)$ in a Taylor series:
 \[
 \alpha(Q) \approx \alpha_0 + \left(\frac{d\alpha}{dQ}\right)_{Q=0} Q.
 \]
@@ -43,125 +60,111 @@ we write
 \alpha(Q) = \alpha_0 + \beta Q.
 \]
 
-### Time dependence of the nuclear coordinate
+#### Time dependence of the nuclear coordinate
 
-For a harmonic vibrational mode, the nuclear coordinate varies sinusoidally with time:
+For harmonic molecular vibration,
 \[
 Q(t) = Q_0 \cos(2\pi \nu_m t),
 \]
 where $\nu_m$ is the molecular vibrational frequency.
 
-Substituting $Q(t)$ into $\alpha(Q)$:
+Substituting into $\alpha(Q)$:
 \[
 \alpha(t) = \alpha_0 + \beta \cos(2\pi \nu_m t).
 \]
 
-\textbf{Important observations:}
-\begin{itemize}
-\item This time dependence of polarizability exists even in the absence of electromagnetic radiation.
-\item It is purely a property of the vibrating molecule.
-\item No scattering or emission occurs at this stage.
-\end{itemize}
+**Important conceptual points:**
+
+- ✔️ This time dependence exists **even without any electromagnetic radiation**
+- ✔️ It is a **pure molecular property**
+- ✔️ No scattering occurs at this stage
 
 ---
 
-## Interaction with Incident Electromagnetic Radiation
+### Time-Dependent Polarizability
 
-Now let electromagnetic radiation of frequency $\nu_0$ be incident on the molecule.  
-The electric field of the radiation is:
+For small-amplitude vibrations, the polarizability may be written as:
 \[
-E(t) = E_0 \cos(2\pi \nu_0 t).
+\alpha(t) = \alpha_0 + \beta \cos(2\pi \nu_m t),
+\]
+where:
+- $\alpha_0$ is the equilibrium polarizability,
+- $\nu_m$ is the molecular vibrational frequency,
+- $\beta = \left(\frac{d\alpha}{dQ}\right)_{Q=0}$ is the rate of change of polarizability with vibrational coordinate.
+
+**Important:** Up to this stage, no electromagnetic radiation is involved.  
+The molecule vibrates naturally with frequency $\nu_m$.
+
+---
+
+### Incident Electromagnetic Radiation
+
+Let monochromatic electromagnetic radiation of frequency $\nu_0$ be incident on the molecule. The electric field of the radiation is:
+\[
+\vec{E}(t) = \vec{E}_0 \cos(2\pi \nu_0 t).
 \]
 
-The induced dipole moment is given by:
+This field induces a dipole moment:
 \[
-p(t) = \alpha(t) E(t).
+\vec{p}(t) = \alpha(t)\vec{E}(t).
 \]
 
-Substituting the expressions for $\alpha(t)$ and $E(t)$:
+Substituting $\alpha(t)$ and $\vec{E}(t)$:
 \[
-p(t) = \left[\alpha_0 + \beta \cos(2\pi \nu_m t)\right] E_0 \cos(2\pi \nu_0 t).
+\vec{p}(t) = \left[\alpha_0 + \beta \cos(2\pi \nu_m t)\right] E_0 \cos(2\pi \nu_0 t).
 \]
+
+---
+
+### Frequency Components of the Induced Dipole
 
 Using the identity
 \[
 \cos A \cos B = \frac{1}{2}\left[\cos(A+B) + \cos(A-B)\right],
 \]
 we obtain:
-\begin{align}
-p(t) = &\ \alpha_0 E_0 \cos(2\pi \nu_0 t) \\
+\[
+\begin{aligned}
+\vec{p}(t) =\;& \alpha_0 E_0 \cos(2\pi \nu_0 t) \\
 & + \frac{1}{2}\beta E_0 \cos 2\pi (\nu_0 + \nu_m)t \\
 & + \frac{1}{2}\beta E_0 \cos 2\pi (\nu_0 - \nu_m)t.
-\end{align}
+\end{aligned}
+\]
 
 ---
 
-## Physical Interpretation
+### Interpretation of Scattered Radiation
 
-Since an oscillating dipole radiates electromagnetic waves, the three terms correspond to three types of scattered radiation:
+Since an oscillating dipole radiates electromagnetic waves, the three frequency components correspond to:
 
-\begin{itemize}
-\item \textbf{Rayleigh scattering}: frequency $\nu_0$ (elastic scattering)
-\item \textbf{Anti-Stokes Raman scattering}: frequency $\nu_0 + \nu_m$
-\item \textbf{Stokes Raman scattering}: frequency $\nu_0 - \nu_m$
-\end{itemize}
-
-The Raman frequency shift depends only on the molecular vibrational frequency $\nu_m$, not on the incident frequency $\nu_0$.
+- **Rayleigh scattering:** frequency $\nu_0$ (elastic)
+- **Stokes Raman scattering:** frequency $\nu_0 - \nu_m$
+- **Anti-Stokes Raman scattering:** frequency $\nu_0 + \nu_m$
 
 ---
 
-## Key Conceptual Takeaways
+### Raman Spectrum Diagram
 
-\begin{itemize}
-\item Raman effect originates from modulation of polarizability by nuclear motion.
-\item Vibrational motion acts as a frequency modulator of the induced dipole.
-\item A vibrational mode is Raman-active if $\dfrac{d\alpha}{dQ} \neq 0$.
-\item Raman scattering can occur even in homonuclear molecules.
-\item Rayleigh scattering is always the strongest component.
-\end{itemize}
+```{tikz}
+\begin{tikzpicture}[scale=1.15]
 
----
+\draw[->, thick] (-6,0) -- (6,0) node[right] {Frequency (Hz)};
+\draw[->, thick] (0,0) -- (0,4.5) node[above] {Intensity};
 
-## Exam-Oriented Questions (GATE / NET)
+\draw[thick, green!70!black]
+(0,0) .. controls (-0.4,4) and (0.4,4) .. (0,0);
+\node[above, green!70!black] at (0,4) {Rayleigh};
 
-### MCQ
+\draw[thick, orange]
+(-4,0) .. controls (-4.4,3) and (-3.6,3) .. (-4,0);
+\node[above, orange] at (-4,3) {Stokes};
 
-\begin{enumerate}
-\item The fundamental reason for Raman scattering is:
-\begin{enumerate}[label=(\alph*)]
-\item change in permanent dipole moment
-\item change in polarizability with nuclear coordinate
-\item absorption of infrared radiation
-\item anharmonic vibration
-\end{enumerate}
+\draw[thick, blue]
+(4,0) .. controls (3.6,2) and (4.4,2) .. (4,0);
+\node[above, blue] at (4,2) {Anti-Stokes};
 
-\item The Raman shift depends on:
-\begin{enumerate}[label=(\alph*)]
-\item incident frequency $\nu_0$
-\item molecular vibrational frequency $\nu_m$
-\item temperature only
-\item intensity of radiation
-\end{enumerate}
-\end{enumerate}
+\node[below] at (-4,0) {$\nu_0-\nu_m$};
+\node[below] at (0,0) {$\nu_0$};
+\node[below] at (4,0) {$\nu_0+\nu_m$};
 
-### MSQ
-
-\begin{enumerate}
-\item Which statements are correct?
-\begin{enumerate}[label=(\alph*)]
-\item Polarizability depends on nuclear coordinate $Q$
-\item Raman effect requires permanent dipole moment
-\item Raman shift is independent of excitation wavelength
-\item Anti-Stokes intensity increases with temperature
-\end{enumerate}
-\end{enumerate}
-
-### Conceptual (NAT / True–False)
-
-\begin{enumerate}
-\item True or False:  
-\emph{The time dependence of polarizability exists even without incident electromagnetic radiation.}
-
-\item True or False:  
-\emph{A vibrational mode can be Raman-active even if it is IR-inactive.}
-\end{enumerate}
+\end{tikzpicture}
